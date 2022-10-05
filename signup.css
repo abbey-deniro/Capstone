@@ -1,0 +1,205 @@
+/* Background/Gradient */
+html {
+    height: 100%;
+    /* font-family: 'Varela Round', sans-serif; */
+}
+
+body {
+    width: 100%;
+    background-image: linear-gradient(to bottom right,#390099,#9e0059,#ff0054,#ff5400,#ffbd00);
+    background-attachment: fixed;
+    /* font-family: 'Gemunu Libre', sans-serif; */
+}
+
+
+ /* Form */
+.form-control {
+	border-color: #ddd;
+}
+
+/* Phone web browser */
+@media only screen and (max-width: 1024px) {
+
+    .signup-form {
+        width: 350px;
+        margin: 0 auto;
+        padding-top: 200px;
+        /* padding: 30px 0; */
+    }
+
+
+    .signup-form form {
+        color: #434343;
+        border-radius: 1px;
+        margin-bottom: 15px;
+        background: #fff;
+        border: 1px solid #f3f3f3;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+        }
+
+
+
+    .signup-form .title {
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .signup-form .avatar {
+        color: #fff;
+        margin: 0 auto 30px;
+        text-align: center;
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        z-index: 9;
+        background: #FFA000;
+        padding-right: 3px;
+        padding-top: 8px;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    .signup-form .avatar i {
+        font-size: 62px;
+    }
+
+    .signup-form .form-group {
+        margin-bottom: 20px;
+    }
+
+    .signup-form .form-control, .signup-form .btn {
+        min-height: 40px;
+        border-radius: 2px; 
+        transition: all 0.5s;
+    }
+
+    .signup-form .close {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+    .signup-form .btn, .signup-form .btn:active {
+        background: #FFBD00 !important;
+        border: none;
+        line-height: normal;
+        width: 100%;
+    }
+
+    .signup-form .btn:hover, .signup-form .btn:focus {
+        background: #FF5400 !important;
+    }
+
+    .signup-form .small {
+        font-size: 13px;
+        /* color: white; */
+        padding-top: 10px;
+    }
+
+    .signup-form a {
+        color: #390099;
+    }
+
+    .pic {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+
+/* Web Browser / firefox chrome laptop */
+@media (min-width:1025px) {
+    .signup-form {
+        width: 50%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+    }
+
+
+    .signup-form form {
+        color: #434343;
+        border-radius: 30px;
+        margin-bottom: 15px;
+        background: #fff;
+        border: 1px solid #f3f3f3;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+        /* height: 700px; */
+        text-align: center;
+        }
+
+    .signup-form .title {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 20px;
+
+    }
+
+    .signup-form .avatar {
+        color: #fff;
+        margin: 0 auto 30px;
+        text-align: center;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        z-index: 9;
+        background: #FFA000;
+        padding-right: 3px;
+        padding-top: 15px;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    .signup-form .form-group {
+        margin-bottom: 20px;
+        width: 300px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .form-group {
+        /* height: 200px; */
+        font-size: 30px;
+    }
+
+    .signup-form .form-control, .signup-form .btn {
+        min-height: 40px;
+        border-radius: 2px; 
+        transition: all 0.5s;
+    }
+
+    .signup-form .close {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+    .signup-form .btn, .signup-form .btn:active {
+        background: #FFBD00 !important;
+        border: none;
+        line-height: normal;
+        width: 300px;
+    }
+
+    .signup-form .btn:hover, .signup-form .btn:focus {
+        background: #FF5400 !important;
+    }
+
+    .signup-form .small {
+        font-size: 13px;
+        padding-top: 10px;
+    }
+
+    .signup-form a {
+        color: #390099;
+    }
+
+    .pic {
+        width: 150px;
+        height: 150px;
+    }
+}
